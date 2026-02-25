@@ -10,7 +10,7 @@ To validate the Edge AI Decision Tree and the 1D Digital Kalman Filter deployed 
     * Thermal velocity ($dT/dt$) remains at exactly `0.0`.
     * Time-To-Failure (TTF) displays "No threat detected."
 * **Status:** ✅ PASS
-![Telemetry Error Analysis](../images/safecondition.png)
+![image](../images/safecondition.png)
 
 ### Test Case 2: WARNING (Pre-Runaway Heating)
 * **Objective:** Validate the predictive $dT/dt$ logic against abnormal thermal acceleration.
@@ -21,7 +21,7 @@ To validate the Edge AI Decision Tree and the 1D Digital Kalman Filter deployed 
     * The AI correctly predicts the trajectory, escalating the state to **`WARNING [2]`**.
     * The system accurately calculates the TTF countdown in seconds.
 * **Status:** ✅ PASS
-![Telemetry Error Analysis](../images/warning.png)
+![image](../images/warning.png)
 
 ### Test Case 3: CRITICAL (Electrolyte Venting / Gas Override)
 * **Objective:** Validate the multi-modal sensor fusion and the AI's gas-override logic.
@@ -31,7 +31,7 @@ To validate the Edge AI Decision Tree and the 1D Digital Kalman Filter deployed 
     * The MQ-135 detects a massive spike in VOCs, crossing the critical delta threshold.
     * The AI fuses this data, realizes a vent has occurred despite the low temperature, and immediately bypasses the thermal logic to force a **`CRITICAL [3]`** state.
 * **Status:** ✅ PASS
-![Telemetry Error Analysis](../images/critical.png)
+![image](../images/critical.png)
 
 ### Test Case 4: SCRAM (Full Thermal Runaway Actuation)
 * **Objective:** Simulate a catastrophic cell failure to ensure zero-latency localized safety actuation.

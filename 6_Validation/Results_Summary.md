@@ -1,6 +1,6 @@
 # Results Summary: System Performance & Reliability
 
-![Telemetry Error Analysis](../images/results_summary.png)
+![image](../images/results_summary.png)
 
 Extensive physical testing and telemetry analysis confirm that SentinEL-V successfully shifts Electric Vehicle battery safety from a **reactive** paradigm to a **proactive** one. By deploying predictive Edge AI directly onto the VSDSquadron Ultra RISC-V SoC, the system achieved zero-latency anomaly detection without relying on cloud infrastructure.
 

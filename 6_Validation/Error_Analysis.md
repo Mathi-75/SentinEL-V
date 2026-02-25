@@ -1,6 +1,6 @@
 # Error Analysis & Edge Case Handling
 
-![Telemetry Error Analysis](../images/warning.png)
+![image](../images/warning.png)
 
 In real-world EV battery environments, sensors are subjected to extreme electrical interference, physical vibrations, and ambient environmental changes. SentinEL-V is designed to handle these edge cases without triggering catastrophic false positive SCRAM events.
 
