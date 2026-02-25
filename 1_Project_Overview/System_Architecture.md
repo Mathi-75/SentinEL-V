@@ -1,3 +1,3 @@
 ## SYSTEM ARCHITECTURE
 
-![image](SentinEL-V\images\detection_logic.png)
+![image](SentinEL-V/images/detection_logic.png)
