@@ -1,4 +1,4 @@
-# Anomaly Detection & Edge AI Logic(detection_logic.png)
+# Anomaly Detection & Edge AI Logic
 
 SentinEL-V rejects standard, reactive thresholding (e.g., "Trigger alarm if Temp > 60°C"). Instead, it uses multi-modal predictive logic deployed at the edge.
 
