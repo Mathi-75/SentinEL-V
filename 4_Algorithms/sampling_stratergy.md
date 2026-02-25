@@ -2,7 +2,7 @@
 
 SentinEL-V utilizes a deterministic, low-latency sampling strategy optimized for Edge AI execution on the VSDSquadron Ultra.
 
-![image](sampling_strategy.png)
+![image](../images/sampling_strategy.png)
 ### Frequency & Windowing
 * **Sampling Rate:** The system operates at a hard-coded **2Hz (500ms intervals)**. This frequency ensures that the RISC-V core has ample clock cycles to perform floating-point Kalman filter mathematics without blocking the main thread.
 * **Rolling History Buffer:** The system maintains a localized array of the last 10 temperature samples (representing a 5-second sliding window). This window is strictly used for calculating the linear regression required for thermal velocity.

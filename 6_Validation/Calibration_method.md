@@ -1,6 +1,6 @@
 # Calibration Method: Adaptive Baseline Anchoring
 
-![image](safecondition.png)
+![image](../images/safecondition.png)
 
 To ensure SentinEL-V remains highly accurate across diverse operating environments—preventing a hot summer day from being falsely flagged as a thermal runaway—the system employs an adaptive 30-second baseline calibration upon every boot.
 

@@ -2,7 +2,7 @@
 
 SentinEL-V rejects standard, reactive thresholding (e.g., "Trigger alarm if Temp > 60°C"). Instead, it uses multi-modal predictive logic deployed at the edge.
 
-![image](detection_logic.png)
+![image](../images/detection_logic.png)
 
 ### 1. Feature Extraction: Thermal Velocity ($dT/dt$)
 Instead of measuring absolute heat, the system calculates the **Rate of Rise**. Using the 10-sample rolling buffer, the RISC-V core performs a real-time linear regression to calculate the slope of the temperature curve. This allows the system to detect runaway *acceleration* while the battery is still physically cool.
